@@ -1,0 +1,12 @@
+.header {
+    width: 100%;
+    position: fixed;
+    background-color: #6667AB;
+    z-index: 2;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}

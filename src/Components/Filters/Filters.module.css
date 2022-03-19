@@ -1,0 +1,48 @@
+.wrapper {
+    padding: 12rem 1rem 4rem;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.select {
+    padding: 0;
+}
+
+.input:focus {
+    border-color: rgb(34, 122, 255);
+    box-shadow: 1px 1px 0 rgb(34, 122, 255) inset, 1px 1px 0 rgb(34, 122, 255);
+    outline: 0 none;
+}
+
+.button {
+    height: 36px;
+    align-self: end;
+    margin: 0 12px 1px;
+    background: #6667AB!important;
+    border-color: #6667AB!important;
+}
+
+.button:hover {
+    background: #4e51c2;
+}
+
+.error {
+    position: absolute;
+    bottom: -2.5rem;
+    left: 1rem;
+    font-size: 0.8rem;
+    width: fit-content;
+}
+
+@media screen and (max-width: 767px){
+    .button {
+        width: 30% !important;
+    }
+
+    .error {
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
+}

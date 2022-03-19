@@ -1,0 +1,17 @@
+.notFoundPage {
+     min-height: 100vh;
+     position: relative;
+     margin: 0;
+ }
+
+.padding {
+    content: '';
+    display: block;
+    height: 150px;
+}
+.wrapper {
+    padding: 0 2rem;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 800px;
+}

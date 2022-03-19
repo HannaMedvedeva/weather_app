@@ -1,0 +1,21 @@
+.wrapper {
+    padding: 0 2rem;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 800px;
+    opacity: .75;
+}
+
+.padding {
+    content: '';
+    display: block;
+    height: 150px;
+}
+
+.card {
+    padding: 3rem 4rem 4rem;
+}
+
+.pre {
+    opacity: .8;
+}

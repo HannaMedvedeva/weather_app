@@ -1,0 +1,35 @@
+.footer {
+    width: 100%;
+    background: #6667AB;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 800px;
+}
+
+.external {
+    margin: 1rem;
+    color: rgba(255,255,255,  .55);
+    text-decoration: none;
+}
+
+.external:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 716px){
+    .padding {
+        content: '';
+        display: block;
+        height: 400px;
+    }
+}
